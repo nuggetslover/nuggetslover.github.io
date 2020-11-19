@@ -1,0 +1,628 @@
+body {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+div, ul, ol, li, header, footer, section, body, button, a, p, input, form {
+	
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Oswald';
+	font-weight: 500;
+ 	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style-type: none;
+}
+
+.container {
+	width: 1110px;
+	margin: 0 auto;
+}
+
+.header {
+	background: url('../img/headerbg.png');
+	padding-top: 30px;
+	padding-bottom: 270px;
+}
+
+
+.menuline {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	
+
+}
+
+.logo {
+
+}
+
+.menu {
+
+}
+
+.headertxt {
+	width: 734px;
+	margin: 100px auto 0px auto;
+
+}
+
+.bigtxt {
+	font-family: Oswald;
+	font-weight: 500;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.headerbigtxt {
+	font-size: 64px;
+	color: #fff;
+}
+
+.smalltxt {
+	font-family: Oswald;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 0.05em;
+}
+
+.headersmalltxt {
+	font-size: 18px;
+	color: #fff;
+}
+
+.upperlayer {
+	position: absolute;
+	background-color: #f7f7f7;
+	margin-top: 120px;
+	height: 300px;
+	width: 1100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 57px 130px;
+
+}
+
+.layerwrapper{
+ text-align: center;
+}
+
+.lineone {
+	color: #f7654a;
+	font-size: 72px;
+}
+
+.linetwo {
+	color: #000;
+	font-size: 36px;
+}
+
+.linethree {
+	font-family: 'Oswald';
+	font-size: 18px;
+	font-weight: 500;
+	color: #999;
+}
+
+.two {
+	padding-top: 250px;
+	padding-bottom: 140px;
+}
+
+.ourproject {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 36px;
+	color: #404149;
+}
+
+.projectswrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 60px;
+}
+
+.oneproject {
+	display: flex;
+	flex-direction: column;
+}
+
+.arenaimage {
+
+}
+
+.arenatxt {
+	width: 90%;
+	margin-top: 15px;
+}
+
+.gazprom {
+	font-size: 24px;
+	color: #404149;
+}
+
+.gazpromtxt {
+	color: #999;
+	font-size: 16px;
+	font-family: 'Open Sans';
+	line-height: 22px;
+	margin-top: 20px;
+}
+
+.rec {
+	margin-top: 45px;
+}
+
+.rectangle {
+	display: block;
+}
+
+.three {
+	background-color: #f7654a;
+}
+
+.banner {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 40px 0;
+	
+}
+
+.bannertxt {
+	width: 60%;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-family: 'Oswald';
+	color: #fff;
+	letter-spacing: 0.1em;
+}
+
+.bigbanner {
+ 	font-size: 48px;
+}
+
+.smallbanner {
+	font-size: 24px;
+	margin-top: 15px;
+}
+
+.request {
+
+}
+
+.four {
+	padding: 150px 0;
+}
+
+.do {
+	text-transform: uppercase;
+	font-size: 36px;
+	text-align: center;
+}
+
+.pictable {
+	display: grid;
+ 	grid-auto-flow: column;
+    grid-template-rows: repeat(2, 1fr);
+    margin-top: 66px;
+}
+
+.item {
+
+}
+
+.five {
+
+}
+
+.picseria {
+	display: grid;
+ 	grid-auto-flow: column;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.six {
+	padding: 150px 0 110px 0;
+}
+
+.answer {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 36px;
+}
+
+.answerblock {
+	display: flex;
+	flex-direction: column;
+	margin-top: 50px;
+}
+
+.question {
+	margin-bottom: 40px;
+}
+
+.polygon {
+	display: inline-block;
+	margin-right: 15px;
+}
+
+.qtext {
+	display: inline-block;
+	font-family: 'Oswald';
+	color: #f7654a;
+	font-size: 24px;
+}
+
+.seven {
+	background-color: #404149;
+	padding: 100px 0;
+}
+
+.partner {
+	text-transform: uppercase;
+	font-size: 36px;
+	text-align: center;
+	color: #fff;
+}
+
+.partnerwrapper {
+	display: flex;
+	flex-direction: row;	
+	margin-top: 60px;
+}
+
+.pspace {
+	margin-right: 64px;
+}
+
+.eight {
+	padding: 150px 0;
+}
+
+.feedback {
+	text-transform: uppercase;
+	color: #000;
+	text-align: center;
+	font-size: 36px;
+}
+
+.feedbackspace {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 60px;
+}
+
+.feed {
+
+}
+
+.p {
+
+}
+
+.fbtxt {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 21px;
+	color: #999;
+	margin-top: 15px;
+	width: 90%;
+}
+
+.fbname {
+	font-family: 'Oswald';
+	font-size: 21px;
+	font-weight: 500;
+	color: #000;
+	margin-top: 30px;
+}
+
+.fbname span {
+	color: #f7654a;
+	
+}
+
+.fbc {
+	background-color: #f7f7f7;
+	padding: 30px;
+}
+
+.nine {
+	background-color: #f7654a;
+}
+
+.ten {
+	padding: 100px 0 150px 0;
+}
+
+.contact {
+	text-align: center;
+	text-transform: uppercase;
+	color: #000;
+	font-size: 36px;
+}
+
+.contactinf {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 60px;
+}
+
+.inf {
+	display: flex;
+	flex-direction: column;
+	width: 25%;
+}
+
+.infname {
+	margin-top: 5px;
+	font-family: 'Oswald';
+	font-size: 24px;
+	font-weight: 500;
+	text-align: center;
+	text-transform: uppercase;
+	color: #999;
+}
+
+.inftxt {
+	font-family: 'Oswald';
+	font-size: 24px;
+	font-weight: 500;
+	text-align: center;
+	text-transform: uppercase;
+	color: #000;
+	margin-top: 25px;
+}
+
+.inftxt span {
+	color: #f7654a;
+}
+
+.pic {
+	margin: 0 auto;
+	height: 71px;
+}
+
+.inftxtwrap	{
+	
+}
+
+.infspace {
+	margin-right: 30px;
+}
+
+.footer {
+	background-color: #404149;
+}
+
+.endtxt {
+	display: flex;
+	justify-content: space-between;
+	padding: 30px;
+}
+
+.ftxt {
+	color: #fff;
+	font-family: 'Open Sans';
+	font-size: 16px;
+	font-weight: 400;
+}
+
+/*responsive*/
+
+/*992-1200px*/
+
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 90%;
+	}
+
+	.upperlayer {
+		width: 90%;
+	}
+
+	.oneproject {
+		width: 30%;
+	}
+
+	.arena {
+		width: 100%;
+	}
+
+	.item {
+			
+	}
+
+	.build {
+		width: 90%;	
+	}
+
+	.tower {
+		width: 100%;
+	}
+
+	.picseria {
+	grid-template-rows: 50% 50%;
+    grid-template-columns: : 25% 25% 25% 25%;
+	}
+
+	.pspace {
+		margin-right: 4%;
+	}
+
+	.resp {
+		width: 17%;
+	}
+}
+
+/*768-992px*/
+
+@media screen and (max-width: 992px) {
+	
+}
+
+/*576-768px*/
+
+@media screen and (max-width: 768px) {
+	.headertxt {
+		width: 90%;
+	}
+
+	
+
+	.upperlayer {
+		padding: 9% 9%;
+	}
+
+	.banner {
+		flex-direction: column;
+	}
+
+	.bannertxt {
+		width: 90%;
+	}
+
+	.bigbanner {
+		font-size: 2.5em;
+		text-align: center;
+	}
+
+	.smallbanner {
+		font-size: 1.2em;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+
+	.feedbackspace {
+		flex-direction: column;
+	}
+
+	.feed {
+		margin-bottom: 20px;
+	}
+
+	.fbname {
+		margin-top: 10px;
+	}
+
+	.ftxt {
+		font-size: 0.7em;
+	}
+
+	.contactinf {
+		flex-direction: column;
+	}
+
+	.infspace {
+		margin-right: 0;
+	}
+
+	.inf {
+		width: 100%;
+		
+		flex-direction: row;
+	}
+
+	.pic {
+		margin: 0;
+		margin-right: 5px;
+		width: 50px;
+	}
+
+	.inftxtwrap {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.infname {
+		margin-top: 0;
+		font-size: 1.5em;
+		display: inline;
+		margin-right: 5px;
+	}
+
+	.inftxt {
+		font-size: 1.5em;
+		margin-top: 0;
+		display: inline;
+	}
+
+	.inftxt br {
+		display: none;
+	}
+}
+
+/*0-576px*/
+
+@media screen and (max-width: 576px) {
+	.headerbigtxt {
+		font-size: 3em;
+	}
+
+	.headersmalltxt {
+		font-size: 1.3em;
+		margin-top: 10px;
+	}
+
+	.change {
+		display: none;
+	}
+
+	.projectswrapper {
+		flex-direction: column;
+	}
+
+	.oneproject {
+		width: 90%;
+		margin-bottom: 10px;
+	}
+
+	.pictable {
+		grid-template-rows: repeat(6, 1fr);
+	}
+
+	.build {
+		width: 100%;
+	}
+
+	.qtext {
+		font-size: 1.3em;
+	}
+
+	.pic {
+		margin: 0 auto;
+	}
+
+	.inf {
+		flex-direction: column;
+		margin-top: 10px;
+	}
+
+	.inftxtwrap {
+		flex-direction: column;
+	}
+
+	.endtxt {
+		flex-direction: column;
+	}
+}
